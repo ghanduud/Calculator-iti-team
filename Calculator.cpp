@@ -5,9 +5,80 @@
 
 using namespace std;
 
+double sum(double a, double b) {
+    return a + b;
+}
+
+int factorial(int a) {
+
+    if(a == 0) return 0;
+    if(a == 1) return 1;
+
+    int b=1;
+
+    for(int i = 1; i <= a;i++){
+        b *= i;
+    }
+
+    return b;
+}
+
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    int choice;
+    cout<<"1 - Sum two numbers";
+    cout<<"2 - Substract two numbers";
+    cout<<"3 - Times two numbers";
+    cout<<"4 - Devid two numbers";
+    cout<<"5 - Number power number";
+    cout<<"6 - Reminder of two numbers";
+    cout<<"7 - Factorial of a number";
+    cout<<"Please choose an operation :";
+
+    cin>>choice;
+
+   if (choice >= 1 && choice <= 6) {
+
+    double a,b,result;
+    cout<<"Please enter two numbers separated by space";
+    cin>>a>>b;
+
+
+    switch (choice)
+    {
+    case 1:
+        result = sum(a,b);
+        break;
+    case 2:
+        result = substract(a,b);
+        break;
+    case 3:
+        result = multiply(a,b);
+        break;
+    case 4:
+        result = devid(a,b);
+        break;
+    case 5:
+        result = power(a,b);
+        break;
+    case 6:
+        result = reminder(a,b);
+        break;
+    default:
+        break;
+    }
+
+    cout<<"your answer is : "<<result<<endl;
+    
+} else {
+    int a;
+    int result;
+    cout<<"Please enter the number:";
+    cin>>a;
+    result = factorial(a);
+    cout<<"your answer is : "<<result<<endl;
+}
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

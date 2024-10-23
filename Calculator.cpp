@@ -1,9 +1,19 @@
 // Calculator.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
 #include <iostream>
 
 using namespace std;
+double subtraction(double num1, double num2) {
+    return num1 - num2;
+}
+
+double mod(double num1, double num2) {
+    return (int)num1 % (int)num2;
+}
+
+double division(double num1, double num2) {
+    return num1 / num2;
+}
 
 double sum(double a, double b) {
     return a + b;

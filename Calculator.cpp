@@ -22,6 +22,15 @@ int factorial(int a) {
 
     return b;
 }
+double multiply(double num1, double num2){
+    return num1 * num2;
+}
+
+double power(double number, double powerNumber){
+    if(powerNumber == 0) return 1;
+    if(powerNumber == 1) return number;
+    return number * power(number, powerNumber - 1);
+}
 
 
 int main()
@@ -51,19 +60,19 @@ int main()
         result = sum(a,b);
         break;
     case 2:
-        result = substract(a,b);
+        result = subtraction(a,b);
         break;
     case 3:
         result = multiply(a,b);
         break;
     case 4:
-        result = devid(a,b);
+        result = division(a,b);
         break;
     case 5:
         result = power(a,b);
         break;
     case 6:
-        result = reminder(a,b);
+        result = mod(a,b);
         break;
     default:
         break;

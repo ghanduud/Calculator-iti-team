@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ITI Tasks\\Game Track\\test\\Calculator-iti-team\\",
+  "WorkspaceRootPath": "D:\\ITI Tasks\\Game Track\\1\\Calculator-iti-team\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96D6232B-9A28-42EF-8948-2274690B6258}|Calculator.vcxproj|D:\\ITI Tasks\\Game Track\\test\\Calculator-iti-team\\Calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{96D6232B-9A28-42EF-8948-2274690B6258}|Calculator.vcxproj|D:\\ITI Tasks\\Game Track\\1\\Calculator-iti-team\\Calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{96D6232B-9A28-42EF-8948-2274690B6258}|Calculator.vcxproj|solutionrelative:Calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -46,9 +46,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Calculator.cpp",
-              "DocumentMoniker": "D:\\ITI Tasks\\Game Track\\test\\Calculator-iti-team\\Calculator.cpp",
+              "DocumentMoniker": "D:\\ITI Tasks\\Game Track\\1\\Calculator-iti-team\\Calculator.cpp",
               "RelativeDocumentMoniker": "Calculator.cpp",
-              "ToolTip": "D:\\ITI Tasks\\Game Track\\test\\Calculator-iti-team\\Calculator.cpp",
+              "ToolTip": "D:\\ITI Tasks\\Game Track\\1\\Calculator-iti-team\\Calculator.cpp",
               "RelativeToolTip": "Calculator.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",

@@ -1,13 +1,23 @@
 // Calculator.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
 #include <iostream>
 
 using namespace std;
+double subtraction(double num1, double num2) {
+    return num1 - num2;
+}
+
+double mod(double num1, double num2) {
+    return (int)num1 % (int)num2;
+}
+
+double division(double num1, double num2) {
+    return num1 / num2;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

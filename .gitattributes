@@ -1,0 +1,21 @@
+# Normalize line endings for text files
+* text=auto
+
+# C++ source and header files
+*.cpp text
+*.hpp text
+*.h text
+*.c text
+
+# Treat all binary files as binary (no diff)
+*.exe binary
+*.dll binary
+*.so binary
+*.a binary
+*.lib binary
+*.pdb binary
+*.obj binary
+*.o binary
+
+# Ensure correct handling of Markdown files
+*.md text
